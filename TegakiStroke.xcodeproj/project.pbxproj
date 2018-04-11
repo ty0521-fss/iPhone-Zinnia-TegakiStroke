@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		382F8F32207DBB970072E855 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382F8F31207DBB970072E855 /* Launch Screen.storyboard */; };
 		6ED62F9214970F2B00A93C22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED62F9114970F2B00A93C22 /* UIKit.framework */; };
 		6ED62F9414970F2B00A93C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED62F9314970F2B00A93C22 /* Foundation.framework */; };
 		6ED62F9614970F2B00A93C22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED62F9514970F2B00A93C22 /* CoreGraphics.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		382F8F31207DBB970072E855 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		6ED62F8D14970F2B00A93C22 /* TegakiStroke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TegakiStroke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ED62F9114970F2B00A93C22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6ED62F9314970F2B00A93C22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -146,6 +148,7 @@
 				6ED62FEC1497B57700A93C22 /* Stroke.m */,
 				6ED62FBD1497186A00A93C22 /* template.db */,
 				6ED62F9814970F2B00A93C22 /* Supporting Files */,
+				382F8F31207DBB970072E855 /* Launch Screen.storyboard */,
 			);
 			path = TegakiStroke;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				382F8F32207DBB970072E855 /* Launch Screen.storyboard in Resources */,
 				6ED62F9C14970F2B00A93C22 /* InfoPlist.strings in Resources */,
 				6ED62FA814970F2B00A93C22 /* ViewController.xib in Resources */,
 				6ED62FBE1497186A00A93C22 /* template.db in Resources */,
